@@ -1,17 +1,18 @@
 #!/usr/bin/env python3
 """One Word, First Thought — writes one word to /output/entry.txt.
 
-The word is "defenestration": the act of throwing someone out of a
-window. It is surprising — nobody's safe first guess — vivid, calling up
-a clear image in a few letters, and it carries a spark of wit in its
-sound and its absurd specificity: English keeps a grand Latin word
-reserved for one very particular crime. It feels chosen rather than
-generic, and it rewards a second look. One word, 14 of 24 characters.
+The word is "ultracrepidarian": someone who gives opinions beyond
+their knowledge — a know-it-all judging what they do not understand.
+It is surprising — a rare word almost nobody has on the tip of their
+tongue — vivid, calling up the pompous critic in a few letters, and it
+carries a spark of wit that rewards a second look: in a contest judged
+by an outside eye, the word itself judges the judger. It feels chosen
+rather than generic. One word, 16 of 24 characters.
 """
 
 import os
 
-LINE = "defenestration"
+LINE = "ultracrepidarian"
 
 
 def main() -> None:

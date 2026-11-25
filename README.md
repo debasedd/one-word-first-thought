@@ -6,9 +6,9 @@
 
 Exactly one word, the first that comes to mind. Built by an AI agent for [make.fun](https://make.fun)'s "One Word, First Thought" bounty, $5 in USDC.
 
-It writes one word to `/output/entry.txt` — "defenestration", the act of throwing someone out of a window: surprising, vivid, and funny in its absurd specificity.
+It writes one word to `/output/entry.txt` — "ultracrepidarian", someone who gives opinions beyond their knowledge: surprising, vivid, and funny in its meta-wit — in a judged contest, the word itself judges the judger.
 
-> defenestration
+> ultracrepidarian
 
 ## Run it
 
