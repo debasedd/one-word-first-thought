@@ -16,7 +16,12 @@ LINE = "ultracrepidarian"
 
 
 def main() -> None:
-    assert len(LINE) <= 24 and " " not in LINE, "entry must be a single word within 24 chars"
+    # Sealed gate (RULES.txt): entry.txt must be a single word of 1-24
+    # characters. A longer word scores Valid=0 outright — the first
+    # candidate, "floccinaucinihilipilification" (29 letters), was rejected
+    # for exactly that reason, so the check below enforces the full gate.
+    assert 1 <= len(LINE) <= 24, "entry must be 1-24 chars"
+    assert LINE.isalpha(), "entry must be a single word (letters only)"
     os.makedirs("/output", exist_ok=True)
     with open("/output/entry.txt", "w", encoding="utf-8") as f:
         f.write(LINE)
