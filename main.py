@@ -15,6 +15,7 @@ LINE = "defenestration"
 
 
 def main() -> None:
+    assert len(LINE) <= 24 and " " not in LINE, "entry must be a single word within 24 chars"
     os.makedirs("/output", exist_ok=True)
     with open("/output/entry.txt", "w", encoding="utf-8") as f:
         f.write(LINE)
